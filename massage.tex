@@ -1,0 +1,51 @@
+\documentclass[a4paper,twoside,11pt,titlepage,openany]{scrbook}
+
+%inputencoding for UTF-8
+\usepackage[utf8]{inputenc}
+
+% Make the fonts render nice in PDFs
+\usepackage{ae}
+
+% Provide nice URLs
+\usepackage{url}
+
+% Use German
+\usepackage[ngerman]{babel}
+
+\newcommand{\fett}[1]{\textsf{\textbf{#1}}}
+
+\author{Oliver Klee, \texttt{seminare@oliverklee.de}, \texttt{@oliklee}}
+\title{Der Reader zum Workshop: Entspannungsmassage}
+\date{Version vom \today}
+
+\pagestyle{headings}
+\setlength{\parindent}{1em}
+\bibliographystyle{plain}
+
+\begin{document}
+\nocite*{}
+
+\maketitle
+\frontmatter
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Generelles}
+\input{generelles}
+
+\chapter{Andere Menschen massieren}
+\input{ruecken}
+\input{haende}
+\input{fuesse}
+\input{gesichtkopf}
+\input{brustnacken}
+
+\chapter{Sich selbst massieren}
+\input{selbstmassage}
+
+\backmatter
+\bibliography{massage}
+
+\end{document}
