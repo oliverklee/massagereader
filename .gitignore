@@ -2,6 +2,7 @@
 *.acr
 *.alg
 *.aux
+*.backup
 *.bbl
 *.blg
 *.dvi
@@ -13,6 +14,7 @@
 *.ilg
 *.ind
 *.ist
+*.kilepr
 *.lof
 *.log
 *.lot
