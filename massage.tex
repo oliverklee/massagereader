@@ -1,33 +1,21 @@
 \documentclass[a4paper,twoside,11pt,titlepage,openany]{scrbook}
 
-% Input encoding for UTF-8
-\usepackage[utf8]{inputenc}
+% Nice layout
+\include{util/layout}
+\include{util/hyphenation}
+\include{util/macros}
 
-% Make the fonts render nice in PDFs
-\usepackage{ae}
-
-% Provide nice URLs
-\usepackage{url}
-
-% Use German
-\usepackage[ngerman]{babel}
-
-% Use two columns where necessary
-\usepackage{multicol}
-
-\newcommand{\fett}[1]{\textsf{\textbf{#1}}}
+%% Informationen for the PDF file
+\hypersetup{
+ pdfauthor={Oliver Klee, seminare@oliverklee.de},
+ pdftitle={Entspannungsmassage-Workshop-Reader},
+ pdfsubject={Der Reader zum Entspannungsmassage-Workshop von Oliver Klee},
+ pdfkeywords={Massage, Workshop, Seminar, Entspannungsmassage, Selbstmassage}
+}
 
 \author{Oliver Klee, \texttt{seminare@oliverklee.de}, \texttt{@oliklee}}
 \title{Der Reader zum Workshop: Entspannungsmassage}
 \date{Version vom \today}
-
-\pagestyle{headings}
-\raggedbottom
-
-\setlength{\parindent}{1em}
-\bibliographystyle{plain}
-
-\hyphenation{Tem-pe-ra-tur}
 
 \begin{document}
 \nocite*{}
