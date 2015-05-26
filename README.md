@@ -1,7 +1,7 @@
 Der Massagereader
 =================
 
-Dies ist der Reader zu den Massageworkshops von [Oliver Klee](http://www.oliverklee.de/).
+Dies ist der Reader zu den Massageworkshops von [Oliver Klee](https://www.oliverklee.de/).
 
 Lizenz
 ------
