@@ -12,6 +12,14 @@ Train-the-Trainer-Workshops und Seminare zu Moderation, Kommunikation,
 Konfliktmanagement und Zeitmanagement. Ihr könnt mich gerne für Workshops in
 eurer Organisation oder Firma engagieren.
 
+
+## Andere Handouts
+
+Es gibt von mir auch einen
+[Spielereader](http://spielereader.org/) mit Methoden und Spielen für Workshops
+und Erstsemestereinführungen.
+
+
 ## Lizenz
 
 Dieser Reader ist unter einer Creative-Commons-Lizenz lizensiert, und zwar
