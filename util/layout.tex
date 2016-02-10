@@ -83,4 +83,13 @@
 % zweispaltiges Layout möglich machen
 \usepackage{multicol}
 
+% Descriptions ohne Einzug
+\renewenvironment{description}[1][0pt]
+{\list{}{
+    \labelwidth=0pt \leftmargin=#1
+     \let\makelabel\descriptionlabel
+  }
+}
+{\endlist}
+
 \raggedbottom
