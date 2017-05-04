@@ -2,11 +2,14 @@
 % Pakete und Parameter
 %----------------------------------------------------------------------------------
 
+% Sonderzeichen fixen
+\usepackage[T1]{fontenc}
+
 % Input-Encoding für UTF-8
 \usepackage[utf8]{inputenc}
 
 % Grafikpaket
-\usepackage{color}
+\usepackage{xcolor}
 \usepackage[pdftex]{graphicx}
 
 % relativer Pfad zu den Bildern
@@ -25,14 +28,14 @@
 % lesbare Verweise
 \usepackage[pdftex,plainpages=false,pdfpagelabels]{hyperref}
 
-% Fonts in PDF hübsch machen
-\usepackage{ae}
-
 % nette URLs
 \usepackage{url}
 
 % Deutsch als Dokumentsprache
 \usepackage[ngerman]{babel}
+
+% Anführungszeichen sprachabhängig machen
+\usepackage[babel]{csquotes}
 
 % für Boxen etc.
 \usepackage{framed}
@@ -43,21 +46,7 @@
 %----------------------------------------------------------------------------------
 
 % Seiten-Kopfzeilen und -Fußzeilen
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\fancyhf{}
-\fancyhead[RE]{\slshape \nouppercase{\leftmark}}    % links:  "Seite      Kapitel"
-\fancyhead[LO]{\slshape \nouppercase{\rightmark}}   % rechts: "Kapitel    Seite"
-\fancyhead[RO,LE]{\bfseries \thepage}
-\renewcommand{\headrulewidth}{1pt} % Kopfzeilen unterstreichen
-\renewcommand{\footrulewidth}{0pt}
-
-\fancypagestyle{plain}{ % Keine Kapitel und Abschnitt auf Startseite start pages
-\fancyhf{}
-\fancyhead[RO,LE]{\bfseries \thepage}
-\renewcommand{\headrulewidth}{1pt}
-\renewcommand{\footrulewidth}{0pt}
-}
+\usepackage{scrlayer-scrpage}
 
 % Kopfzeile auf linker Seite: "1  Einführung"
 \renewcommand{\chaptermark}[1]{%
@@ -69,7 +58,6 @@
 
 % Seitenlayout
 \topmargin20mm
-\addtolength{\headheight}{2pt} % verhindert zu volle vboxes durch fancyhdr
 \footskip10mm % Abstand von unserem Rand zu Datum
 
 \newlength{\fullwidth} % Seites des Textes plus Randnotizen
