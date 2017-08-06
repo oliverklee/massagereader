@@ -1,9 +1,12 @@
 # Der Massagereader
 
-[![Flattr this git repo](https://button.flattr.com/flattr-badge-large.png)](https://flattr.com/submit/auto?fid=45y2xw&url=https%3A%2F%2Fgithub.com%2Foliverklee%2Fmassagereader)
-
 Dies ist das Handout bzw. der Reader zu den Massageworkshops von
 [Oliver Klee](https://www.oliverklee.de/).
+
+Es gibt zwei Versionen der Readers:
+* [lange Version für Ganzkörpermassage und Selbstmassage](massage.pdf)
+* [Kurzversion nur für Rückenmassage](ruecken-kurz.pdf)
+
 
 ## Über den Autor
 
@@ -18,7 +21,7 @@ eurer Organisation oder Firma engagieren.
 ## Andere Handouts
 
 Es gibt von mir auch einen
-[Spielereader](http://spielereader.org/) mit Methoden und Spielen für Workshops
+[Spielereader](https://spielereader.org/) mit Methoden und Spielen für Workshops
 und Erstsemestereinführungen.
 
 

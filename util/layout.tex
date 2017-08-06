@@ -41,6 +41,7 @@
 \usepackage{framed}
 \definecolor{shadecolor}{rgb}{0.8,0.8,0.8}
 
+
 %----------------------------------------------------------------------------------
 % Seitenlayout
 %----------------------------------------------------------------------------------
@@ -48,13 +49,15 @@
 % Seiten-Kopfzeilen und -Fußzeilen
 \usepackage{scrlayer-scrpage}
 
-% Kopfzeile auf linker Seite: "1  Einführung"
-\renewcommand{\chaptermark}[1]{%
-\markboth{\thechapter\ \ \ \ #1}{}}
+\iftoggle{long}{
+  % Kopfzeile auf linker Seite: "1  Einführung"
+  \renewcommand{\chaptermark}[1]{%
+  \markboth{\thechapter\ \ \ \ #1}{}}
 
-% Kopfzeile auf rechter Seite: "1.1  Basics"
-\renewcommand{\sectionmark}[1]{%
-\markright{\thesection\ \ \ \ #1}{}}
+  % Kopfzeile auf rechter Seite: "1.1  Basics"
+  \renewcommand{\sectionmark}[1]{%
+  \markright{\thesection\ \ \ \ #1}{}}
+}
 
 % Seitenlayout
 \topmargin20mm
