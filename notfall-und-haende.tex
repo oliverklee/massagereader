@@ -1,0 +1,33 @@
+\documentclass[a4paper,twoside,12pt,titlepage,headsepline]{scrartcl}
+
+\include{util/reader-short}
+
+% Nice layout
+\include{util/layout}
+\include{util/hyphenation}
+\include{util/macros}
+
+%% Informationen for the PDF file
+\hypersetup{
+  pdfauthor={Oliver Klee, seminare@oliverklee.de, @oliklee},
+  pdftitle={Entspannungsmassage-Reader},
+  pdfsubject={Der Reader zum Entspannungsmassage-Kurzworkshop von Oliver Klee},
+  pdfkeywords={Massage, Workshop, Seminar, Entspannungsmassage, Rückenmassage}
+}
+
+\author{Oliver Klee | \texttt{seminare@oliverklee.de} | \texttt{@oliklee}\\\url{https://github.com/oliverklee/massagereader}}
+\title{Der Reader zum Kurzworkshop: Entspannungsmassage}
+\date{Version vom \today}
+
+\selectlanguage{ngerman}
+
+\begin{document}
+\nocite*{}
+
+\maketitle
+
+\input{notfall-nacken-ruecken}
+
+\input{haende}
+
+\end{document}
