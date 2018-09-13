@@ -3,9 +3,10 @@
 Dies ist das Handout bzw. der Reader zu den Massageworkshops von
 [Oliver Klee](https://www.oliverklee.de/).
 
-Es gibt zwei Versionen der Readers:
+Es gibt mehrere Versionen der Readers:
 * [lange Version für Ganzkörpermassage und Selbstmassage](massage.pdf)
-* [Kurzversion nur für Rückenmassage](ruecken-kurz.pdf)
+* [nur Rückenmassage (gekürzt)](ruecken-kurz.pdf)
+* [nur Notfallmassage und Hände](notfall-und-haende.pdf)
 
 
 ## Über den Autor
