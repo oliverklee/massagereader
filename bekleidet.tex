@@ -1,0 +1,47 @@
+\documentclass[a4paper,twoside,12pt,titlepage,headsepline]{scrartcl}
+
+\include{util/reader-ohne-oel}
+
+% Nice layout
+\include{util/layout}
+\include{util/hyphenation}
+\include{util/macros}
+
+%% Informationen for the PDF file
+\hypersetup{
+  pdfauthor={Oliver Klee, seminare@oliverklee.de, @oliklee},
+  pdftitle={Entspannungsmassage-Reader},
+  pdfsubject={Massage: bekleidet und ohne Öl},
+  pdfkeywords={Massage, Workshop, Seminar, Entspannungsmassage, Rückenmassage}
+}
+
+\author{Oliver Klee | \texttt{seminare@oliverklee.de} | \texttt{@oliklee}\\\url{https://github.com/oliverklee/massagereader}}
+\title{Partner-Massage für zwischendurch:\\bekleidet und ohne Öl}
+\date{Version vom \today}
+
+\selectlanguage{ngerman}
+
+\begin{document}
+\nocite*{}
+
+\maketitle
+
+\tableofcontents
+\input{lizenz}
+\input{sprachliches}
+
+\pagebreak
+
+\input{notfall-nacken-ruecken}
+\pagebreak
+
+\input{ruecken}
+\pagebreak
+
+\input{haende}
+\pagebreak
+
+\input{gesichtkopf}
+\pagebreak
+
+\end{document}

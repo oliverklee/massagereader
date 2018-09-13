@@ -7,6 +7,7 @@ Es gibt mehrere Versionen der Readers:
 * [lange Version für Ganzkörpermassage und Selbstmassage](massage.pdf)
 * [nur Rückenmassage (gekürzt)](ruecken-kurz.pdf)
 * [nur Notfallmassage und Hände](notfall-und-haende.pdf)
+* [bekleidet und ohne Öl](bekleidet.pdf)
 
 
 ## Über den Autor
